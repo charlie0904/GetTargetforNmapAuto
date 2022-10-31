@@ -8,3 +8,7 @@ do nikto -host $targetip:$testport -ask no —nointeractive -useragent "Mozilla/
 $curdate\_nikto_$targetip\_$testport.html
 done
 done
+
+# below is command to execute with nikto based on a given nmap result
+# nikto -host $curdate\_nmap_tcp.gnmap -ask no —nointeractive -useragent "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1" -Format htm —output .
+# nikto -host nmap.gnmap -ask no —nointeractive -Format htm -output nikto_nmap-scans.html
