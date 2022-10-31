@@ -1,2 +1,2 @@
-# Objective
-Retrieving IP for nmapautomator to scan
+# 
+takeip - Retrieving IP for nmapautomator to scan
