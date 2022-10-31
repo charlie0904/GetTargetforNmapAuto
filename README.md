@@ -1,1 +1,1 @@
-# va-nmap
+Retrieving IP for nmapautomator to scan
